@@ -1,0 +1,3 @@
+SELECT project_id, dataset_id, size_bytes
+FROM public.databases
+ORDER BY size_bytes DESC;
