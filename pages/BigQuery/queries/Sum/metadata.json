@@ -2,7 +2,7 @@
   "pluginType": "DB",
   "pluginId": "postgres-plugin",
   "unpublishedAction": {
-    "name": "Count",
+    "name": "Sum",
     "datasource": {
       "name": "GCP MultiCloud",
       "pluginId": "postgres-plugin",
@@ -13,12 +13,12 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Page1",
+    "pageId": "BigQuery",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "SELECT COUNT ( * ) as totalDatasets FROM databases;",
+      "body": "SELECT SUM ( size_bytes ) as bytesSum FROM databases;",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -26,7 +26,7 @@
         }
       ]
     },
-    "executeOnLoad": false,
+    "executeOnLoad": true,
     "dynamicBindingPathList": [],
     "isValid": true,
     "invalids": [],
@@ -36,9 +36,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2023-06-19T09:08:29Z"
+    "createdAt": "2023-06-19T09:09:03Z"
   },
-  "id": "Page1_Count",
+  "id": "BigQuery_Sum",
   "deleted": false,
-  "gitSyncId": "648b87b458cc4f2c9357f157_64901b0d07a6462de9e59a5e"
+  "gitSyncId": "648b87b458cc4f2c9357f157_64901b2f07a6462de9e59a60"
 }

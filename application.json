@@ -1,7 +1,7 @@
 {
   "pages": [
     {
-      "id": "Page1",
+      "id": "BigQuery",
       "isDefault": true
     }
   ],
@@ -14,7 +14,10 @@
     }
   },
   "color": "#C7F3F0",
-  "icon": "frame",
+  "icon": "alien",
+  "unpublishedAppLayout": {
+    "type": "FLUID"
+  },
   "unpublishedCustomJSLibs": [],
   "publishedCustomJSLibs": [],
   "evaluationVersion": 2,

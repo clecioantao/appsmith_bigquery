@@ -2,7 +2,7 @@
   "pluginType": "DB",
   "pluginId": "postgres-plugin",
   "unpublishedAction": {
-    "name": "projectGroup",
+    "name": "Count",
     "datasource": {
       "name": "GCP MultiCloud",
       "pluginId": "postgres-plugin",
@@ -13,12 +13,12 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Page1",
+    "pageId": "BigQuery",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "SELECT project_id, COUNT(*) as count\nFROM public.databases\nGROUP BY project_id\nORDER BY count DESC;",
+      "body": "SELECT COUNT ( * ) as totalDatasets FROM databases;",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -26,7 +26,7 @@
         }
       ]
     },
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "dynamicBindingPathList": [],
     "isValid": true,
     "invalids": [],
@@ -36,9 +36,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2023-06-19T11:35:31Z"
+    "createdAt": "2023-06-19T09:08:29Z"
   },
-  "id": "Page1_projectGroup",
+  "id": "BigQuery_Count",
   "deleted": false,
-  "gitSyncId": "648b87b458cc4f2c9357f157_64903d8307a6462de9e59aa6"
+  "gitSyncId": "648b87b458cc4f2c9357f157_64901b0d07a6462de9e59a5e"
 }
