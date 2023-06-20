@@ -1,4 +1,5 @@
 SELECT project_id, COUNT(*) as count
 FROM public.databases
 GROUP BY project_id
-ORDER BY count DESC;
+ORDER BY count DESC
+LIMIT 10;
