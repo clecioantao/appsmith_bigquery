@@ -27,7 +27,7 @@
   "color": "#C7F3F0",
   "icon": "heart",
   "unpublishedAppLayout": {
-    "type": "FLUID"
+    "type": "DESKTOP"
   },
   "publishedAppLayout": {
     "type": "FLUID"

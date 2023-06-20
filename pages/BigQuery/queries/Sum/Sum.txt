@@ -1,1 +1,0 @@
-SELECT REPLACE(TO_CHAR(SUM(size_bytes), '999G999G999G999G999G999'), ',', '.') AS bytesSum FROM databases;

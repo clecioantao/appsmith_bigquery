@@ -2,7 +2,7 @@
   "pluginType": "DB",
   "pluginId": "postgres-plugin",
   "unpublishedAction": {
-    "name": "Sum",
+    "name": "SumTBytes",
     "datasource": {
       "name": "GCP MultiCloud",
       "pluginId": "postgres-plugin",
@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "SELECT REPLACE(TO_CHAR(SUM(size_bytes), '999G999G999G999G999G999'), ',', '.') AS bytesSum FROM databases;\n",
+      "body": "SELECT REPLACE(TO_CHAR(SUM(size_bytes) / POWER(1024, 4), '999G999G999G999G999G990'), ',', '.') AS terabytesSum FROM databases;",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -26,7 +26,7 @@
         }
       ]
     },
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "dynamicBindingPathList": [],
     "isValid": true,
     "invalids": [],
@@ -36,9 +36,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2023-06-19T09:09:03Z"
+    "createdAt": "2023-06-20T18:36:39Z"
   },
-  "id": "BigQuery_Sum",
+  "id": "BigQuery_SumTBytes",
   "deleted": false,
-  "gitSyncId": "648b87b458cc4f2c9357f157_64901b2f07a6462de9e59a60"
+  "gitSyncId": "648b87b458cc4f2c9357f157_6491f1b7c8630d2672da1266"
 }

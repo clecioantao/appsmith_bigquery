@@ -1,0 +1,2 @@
+SELECT REPLACE(TO_CHAR(SUM(size_bytes) / POWER(1024, 5), '999G999G999G999G999G990D000'), ',', '.') AS petabytesSum FROM databases;
+
