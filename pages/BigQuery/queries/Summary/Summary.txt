@@ -1,0 +1,2 @@
+SELECT "date", total_bytes
+FROM public.summary;
