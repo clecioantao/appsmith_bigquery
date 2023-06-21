@@ -91,7 +91,7 @@
                       "fontFamily": "Inter",
                       "parentColumnSpace": 18.26171875,
                       "dynamicTriggerPathList": [],
-                      "leftColumn": 1,
+                      "leftColumn": 0,
                       "dynamicBindingPathList": [
                         {
                           "key": "borderRadius"
@@ -101,8 +101,8 @@
                       "text": "Analise BigQuery - Diária",
                       "key": "nkrcthnrzv",
                       "isDeprecated": false,
-                      "rightColumn": 59,
-                      "textAlign": "LEFT",
+                      "rightColumn": 61,
+                      "textAlign": "CENTER",
                       "dynamicHeight": "FIXED",
                       "widgetId": "t1bea7dfvc",
                       "isVisible": true,
@@ -141,7 +141,7 @@
                           "key": "menuItems.menuItem3.onClick"
                         }
                       ],
-                      "leftColumn": 59,
+                      "leftColumn": 61,
                       "dynamicBindingPathList": [
                         {
                           "key": "borderRadius"
@@ -151,7 +151,7 @@
                       "key": "xhh0ol5f83",
                       "sourceDataKeys": [],
                       "isDeprecated": false,
-                      "rightColumn": 62,
+                      "rightColumn": 64,
                       "iconName": "menu",
                       "menuVariant": "TERTIARY",
                       "widgetId": "wrnng9j9l8",
@@ -299,7 +299,7 @@
                               "overflow": "NONE",
                               "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
                               "dynamicTriggerPathList": [],
-                              "leftColumn": 6,
+                              "leftColumn": 0,
                               "dynamicBindingPathList": [
                                 {
                                   "key": "truncateButtonColor"
@@ -1295,8 +1295,10 @@
             {
               "boxShadow": "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
               "mobileBottomRow": 116,
+              "setAdaptiveYMin": false,
               "widgetName": "Chart2",
               "allowScroll": false,
+              "dynamicPropertyPathList": [],
               "displayName": "Chart",
               "iconSVG": "/static/media/icon.04227b3516da60d6462fe38c74f88261.svg",
               "searchTags": [
@@ -1312,14 +1314,18 @@
               "mobileRightColumn": 24,
               "chartData": {
                 "1lbstjw14x": {
-                  "seriesName": "Sales",
+                  "seriesName": "{{SumBytes.data[0].bytessum}}",
                   "data": "{{Summary.data.map( (obj) =>{ return  {'x': obj.date, 'y': obj.total_bytes } })}}",
                   "color": "#312e81"
                 }
               },
               "animateLoading": true,
               "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-              "dynamicTriggerPathList": [],
+              "dynamicTriggerPathList": [
+                {
+                  "key": "onDataPointClick"
+                }
+              ],
               "dynamicBindingPathList": [
                 {
                   "key": "chartData.1lbstjw14x.data"
@@ -1332,6 +1338,9 @@
                 },
                 {
                   "key": "fontFamily"
+                },
+                {
+                  "key": "chartData.1lbstjw14x.seriesName"
                 }
               ],
               "leftColumn": 0,
@@ -1382,6 +1391,7 @@
                   }
                 }
               },
+              "onDataPointClick": "{{showAlert('teste', '');}}",
               "key": "y079s0avme",
               "isDeprecated": false,
               "rightColumn": 35,
@@ -1396,12 +1406,12 @@
               "isLoading": false,
               "mobileTopRow": 84,
               "responsiveBehavior": "fill",
-              "yAxisName": "Bytes",
-              "chartName": "Posição Diária",
+              "yAxisName": "Mega Bytes",
+              "chartName": "Sumário",
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "mobileLeftColumn": 0,
               "xAxisName": "",
-              "chartType": "COLUMN_CHART"
+              "chartType": "BAR_CHART"
             },
             {
               "boxShadow": "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
@@ -1509,7 +1519,7 @@
               "mobileTopRow": 111,
               "responsiveBehavior": "fill",
               "yAxisName": "",
-              "chartName": "Datasets por Projetos",
+              "chartName": "Datasets",
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "mobileLeftColumn": 0,
               "xAxisName": "",
