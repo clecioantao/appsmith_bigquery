@@ -319,7 +319,7 @@
                               "text": "{{SumBytes.data[0].bytessum}}",
                               "key": "xqm62xi070",
                               "isDeprecated": false,
-                              "rightColumn": 62,
+                              "rightColumn": 64,
                               "textAlign": "LEFT",
                               "dynamicHeight": "FIXED",
                               "widgetId": "vaeoaa9jel",
