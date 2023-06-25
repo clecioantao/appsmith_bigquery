@@ -1,0 +1,4 @@
+SELECT vcpus, COUNT(*) as vcpus_count
+FROM public.node_pools
+GROUP BY vcpus
+order by vcpus_count DESC;

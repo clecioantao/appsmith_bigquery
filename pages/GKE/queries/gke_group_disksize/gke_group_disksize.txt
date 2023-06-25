@@ -1,0 +1,4 @@
+SELECT CAST(disk_size AS VARCHAR) AS disk_size_str, COUNT(*) AS disk_count
+FROM public.node_pools
+GROUP BY disk_size_str
+ORDER BY disk_count DESC;

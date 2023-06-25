@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1100,
+          "bottomRow": 1220,
           "containerStyle": "none",
           "snapRows": 124,
           "parentRowSpace": 1,
@@ -26,6 +26,47 @@
           "dynamicBindingPathList": [],
           "leftColumn": 0,
           "children": [
+            {
+              "boxShadow": "none",
+              "mobileBottomRow": 90,
+              "widgetName": "Image1",
+              "displayName": "Image",
+              "iconSVG": "/static/media/icon.30c8cbd442cce232b01ba2d434c53a53.svg",
+              "topRow": 111,
+              "bottomRow": 122,
+              "parentRowSpace": 10,
+              "type": "IMAGE_WIDGET",
+              "hideCard": false,
+              "mobileRightColumn": 24,
+              "animateLoading": true,
+              "parentColumnSpace": 19.8125,
+              "dynamicTriggerPathList": [],
+              "imageShape": "RECTANGLE",
+              "leftColumn": 5,
+              "dynamicBindingPathList": [
+                {
+                  "key": "borderRadius"
+                }
+              ],
+              "defaultImage": "https://cdn.icon-icons.com/icons2/2699/PNG/512/google_bigquery_logo_icon_168150.png",
+              "key": "vfnri0fzy3",
+              "image": "",
+              "isDeprecated": false,
+              "rightColumn": 10,
+              "objectFit": "contain",
+              "widgetId": "jbhlepbz4n",
+              "isVisible": true,
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "mobileTopRow": 78,
+              "maxZoomLevel": 1,
+              "enableDownload": false,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "mobileLeftColumn": 12,
+              "enableRotation": false
+            },
             {
               "boxShadow": "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
               "widgetName": "appHeader",
@@ -73,6 +114,47 @@
                   ],
                   "children": [
                     {
+                      "boxShadow": "none",
+                      "mobileBottomRow": 90,
+                      "widgetName": "Image1Copy",
+                      "displayName": "Image",
+                      "iconSVG": "/static/media/icon.30c8cbd442cce232b01ba2d434c53a53.svg",
+                      "topRow": 0,
+                      "bottomRow": 17,
+                      "parentRowSpace": 10,
+                      "type": "IMAGE_WIDGET",
+                      "hideCard": false,
+                      "mobileRightColumn": 24,
+                      "animateLoading": true,
+                      "parentColumnSpace": 19.8125,
+                      "dynamicTriggerPathList": [],
+                      "imageShape": "RECTANGLE",
+                      "leftColumn": 0,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "borderRadius"
+                        }
+                      ],
+                      "defaultImage": "https://cdn.icon-icons.com/icons2/2699/PNG/512/google_bigquery_logo_icon_168150.png",
+                      "key": "vfnri0fzy3",
+                      "image": "",
+                      "isDeprecated": false,
+                      "rightColumn": 7,
+                      "objectFit": "contain",
+                      "widgetId": "aki7ho5c1k",
+                      "isVisible": true,
+                      "version": 1,
+                      "parentId": "pder92nnb1",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "mobileTopRow": 78,
+                      "maxZoomLevel": 1,
+                      "enableDownload": false,
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "mobileLeftColumn": 12,
+                      "enableRotation": false
+                    },
+                    {
                       "widgetName": "appTitle",
                       "displayName": "Text",
                       "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
@@ -91,7 +173,7 @@
                       "fontFamily": "Inter",
                       "parentColumnSpace": 18.26171875,
                       "dynamicTriggerPathList": [],
-                      "leftColumn": 0,
+                      "leftColumn": 9,
                       "dynamicBindingPathList": [
                         {
                           "key": "borderRadius"
@@ -157,22 +239,22 @@
                       "widgetId": "wrnng9j9l8",
                       "menuItems": {
                         "menuItem2": {
-                          "label": "Dashboard",
+                          "label": "BigQuery",
                           "id": "menuItem2",
                           "widgetId": "",
                           "isVisible": true,
                           "isDisabled": false,
                           "index": 0,
-                          "onClick": "{{navigateTo('Dashboard', {})}}"
+                          "onClick": "{{navigateTo('BigQuery', {});}}"
                         },
                         "menuItembfox91roho": {
                           "id": "menuItembfox91roho",
                           "index": 1,
-                          "label": "Assets",
+                          "label": "GKE",
                           "widgetId": "u91c9yytwt",
                           "isDisabled": false,
                           "isVisible": true,
-                          "onClick": "{{navigateTo('Assets', {})}}"
+                          "onClick": "{{navigateTo('GKE', {});}}"
                         },
                         "menuItem3": {
                           "label": "Employees",
@@ -891,50 +973,6 @@
                       "borderRadius": "0.375rem",
                       "maxDynamicHeight": 9000,
                       "minDynamicHeight": 4
-                    },
-                    {
-                      "boxShadow": "none",
-                      "mobileBottomRow": 36,
-                      "widgetName": "IconButton1",
-                      "buttonColor": "#312e81",
-                      "displayName": "Icon button",
-                      "iconSVG": "/static/media/icon.80fc7466c0d7181ec0271de7fda795ec.svg",
-                      "searchTags": [
-                        "click",
-                        "submit"
-                      ],
-                      "topRow": 4,
-                      "bottomRow": 18,
-                      "parentRowSpace": 10,
-                      "type": "ICON_BUTTON_WIDGET",
-                      "hideCard": false,
-                      "mobileRightColumn": 56,
-                      "animateLoading": true,
-                      "parentColumnSpace": 19.8125,
-                      "dynamicTriggerPathList": [],
-                      "leftColumn": 0,
-                      "dynamicBindingPathList": [
-                        {
-                          "key": "borderRadius"
-                        }
-                      ],
-                      "isDisabled": false,
-                      "key": "olgpzba6br",
-                      "isDeprecated": false,
-                      "rightColumn": 8,
-                      "iconName": "database",
-                      "widgetId": "ipxqlh6b4y",
-                      "minWidth": 50,
-                      "isVisible": true,
-                      "version": 1,
-                      "parentId": "pder92nnb1",
-                      "renderMode": "CANVAS",
-                      "isLoading": false,
-                      "mobileTopRow": 32,
-                      "responsiveBehavior": "hug",
-                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "mobileLeftColumn": 52,
-                      "buttonVariant": "PRIMARY"
                     }
                   ],
                   "key": "zzj3dek0bq",

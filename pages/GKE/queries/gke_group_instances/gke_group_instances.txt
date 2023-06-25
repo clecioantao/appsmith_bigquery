@@ -1,0 +1,4 @@
+SELECT instance_type, COUNT(*) as instance_count
+FROM public.node_pools
+GROUP BY instance_type
+order by instance_count DESC;

@@ -1,0 +1,4 @@
+SELECT total_memory, COUNT(*) as memory_count
+FROM public.node_pools
+GROUP BY total_memory
+order by memory_count DESC;

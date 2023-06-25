@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1560,
+          "bottomRow": 2720,
           "containerStyle": "none",
           "snapRows": 124,
           "parentRowSpace": 1,
@@ -72,47 +72,6 @@
                     }
                   ],
                   "children": [
-                    {
-                      "boxShadow": "none",
-                      "mobileBottomRow": 90,
-                      "widgetName": "Image1Copy",
-                      "displayName": "Image",
-                      "iconSVG": "/static/media/icon.30c8cbd442cce232b01ba2d434c53a53.svg",
-                      "topRow": 1,
-                      "bottomRow": 17,
-                      "parentRowSpace": 10,
-                      "type": "IMAGE_WIDGET",
-                      "hideCard": false,
-                      "mobileRightColumn": 24,
-                      "animateLoading": true,
-                      "parentColumnSpace": 19.8125,
-                      "dynamicTriggerPathList": [],
-                      "imageShape": "RECTANGLE",
-                      "leftColumn": 1,
-                      "dynamicBindingPathList": [
-                        {
-                          "key": "borderRadius"
-                        }
-                      ],
-                      "defaultImage": "https://static-00.iconduck.com/assets.00/google-gke-icon-512x457-q6s0e3iu.png",
-                      "key": "vfnri0fzy3",
-                      "image": "",
-                      "isDeprecated": false,
-                      "rightColumn": 9,
-                      "objectFit": "contain",
-                      "widgetId": "r0siistvf3",
-                      "isVisible": true,
-                      "version": 1,
-                      "parentId": "pder92nnb1",
-                      "renderMode": "CANVAS",
-                      "isLoading": false,
-                      "mobileTopRow": 78,
-                      "maxZoomLevel": 1,
-                      "enableDownload": false,
-                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "mobileLeftColumn": 12,
-                      "enableRotation": false
-                    },
                     {
                       "widgetName": "appTitle",
                       "displayName": "Text",
@@ -758,6 +717,47 @@
                       "borderRadius": "0.375rem",
                       "maxDynamicHeight": 9000,
                       "minDynamicHeight": 4
+                    },
+                    {
+                      "boxShadow": "none",
+                      "mobileBottomRow": 90,
+                      "widgetName": "Image1Copy",
+                      "displayName": "Image",
+                      "iconSVG": "/static/media/icon.30c8cbd442cce232b01ba2d434c53a53.svg",
+                      "topRow": 0,
+                      "bottomRow": 17,
+                      "parentRowSpace": 10,
+                      "type": "IMAGE_WIDGET",
+                      "hideCard": false,
+                      "mobileRightColumn": 24,
+                      "animateLoading": true,
+                      "parentColumnSpace": 19.8125,
+                      "dynamicTriggerPathList": [],
+                      "imageShape": "RECTANGLE",
+                      "leftColumn": 0,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "borderRadius"
+                        }
+                      ],
+                      "defaultImage": "https://static-00.iconduck.com/assets.00/google-gke-icon-512x457-q6s0e3iu.png",
+                      "key": "vfnri0fzy3",
+                      "image": "",
+                      "isDeprecated": false,
+                      "rightColumn": 7,
+                      "objectFit": "contain",
+                      "widgetId": "ry7p0g34u5",
+                      "isVisible": true,
+                      "version": 1,
+                      "parentId": "pder92nnb1",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "mobileTopRow": 78,
+                      "maxZoomLevel": 1,
+                      "enableDownload": false,
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "mobileLeftColumn": 12,
+                      "enableRotation": false
                     }
                   ],
                   "key": "zzj3dek0bq",
@@ -799,7 +799,7 @@
               "borderColor": "#E0DEDE",
               "isVisibleDownload": true,
               "iconSVG": "/static/media/icon.24905525921dd6f5ff46d0dd843b9e12.svg",
-              "topRow": 21,
+              "topRow": 20,
               "isSortable": true,
               "type": "TABLE_WIDGET_V2",
               "inlineEditingSaveOption": "ROW_LEVEL",
@@ -908,7 +908,7 @@
               ],
               "dynamicPropertyPathList": [],
               "displayName": "Table",
-              "bottomRow": 60,
+              "bottomRow": 64,
               "columnWidthMap": {
                 "task": 245,
                 "step": 70,
@@ -1286,15 +1286,15 @@
                 "visuals",
                 "visualisations"
               ],
-              "topRow": 61,
-              "bottomRow": 104,
+              "topRow": 64,
+              "bottomRow": 107,
               "parentRowSpace": 10,
               "type": "CHART_WIDGET",
               "hideCard": false,
               "mobileRightColumn": 24,
               "chartData": {
                 "4d7kmnkgmq": {
-                  "seriesName": "",
+                  "seriesName": "/",
                   "data": "{{gke_group_location.data.map( (obj) =>{ return  {'x': obj.location, 'y': obj.loc_count } })}}"
                 }
               },
@@ -1318,7 +1318,7 @@
                   "key": "chartData.4d7kmnkgmq.data"
                 }
               ],
-              "leftColumn": 24,
+              "leftColumn": 0,
               "customFusionChartConfig": {
                 "type": "column2d",
                 "dataSource": {
@@ -1368,7 +1368,7 @@
               },
               "key": "xgm267k0la",
               "isDeprecated": false,
-              "rightColumn": 58,
+              "rightColumn": 33,
               "widgetId": "fsczqzts2c",
               "accentColor": "{{appsmith.theme.colors.primaryColor}}",
               "minWidth": 450,
@@ -1381,7 +1381,7 @@
               "mobileTopRow": 61,
               "responsiveBehavior": "fill",
               "yAxisName": "Revenue($)",
-              "chartName": "",
+              "chartName": "Locations",
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "mobileLeftColumn": 0,
               "xAxisName": "Product Line",
@@ -1400,8 +1400,8 @@
                 "visuals",
                 "visualisations"
               ],
-              "topRow": 106,
-              "bottomRow": 156,
+              "topRow": 151,
+              "bottomRow": 189,
               "parentRowSpace": 10,
               "type": "CHART_WIDGET",
               "hideCard": false,
@@ -1485,7 +1485,7 @@
               },
               "key": "xgm267k0la",
               "isDeprecated": false,
-              "rightColumn": 50,
+              "rightColumn": 52,
               "widgetId": "1dwwyd2krq",
               "accentColor": "{{appsmith.theme.colors.primaryColor}}",
               "minWidth": 450,
@@ -1498,7 +1498,7 @@
               "mobileTopRow": 105,
               "responsiveBehavior": "fill",
               "yAxisName": "",
-              "chartName": "Sales Report",
+              "chartName": "Cluster Versions\n",
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "mobileLeftColumn": 0,
               "xAxisName": "",
@@ -1509,7 +1509,7 @@
               "borderColor": "#E0DEDE",
               "isVisibleDownload": false,
               "iconSVG": "/static/media/icon.24905525921dd6f5ff46d0dd843b9e12.svg",
-              "topRow": 106,
+              "topRow": 151,
               "isSortable": true,
               "type": "TABLE_WIDGET_V2",
               "inlineEditingSaveOption": "ROW_LEVEL",
@@ -1535,7 +1535,7 @@
                 }
               ],
               "needsHeightForContent": true,
-              "leftColumn": 50,
+              "leftColumn": 52,
               "delimiter": ",",
               "defaultSelectedRowIndex": 0,
               "accentColor": "{{appsmith.theme.colors.primaryColor}}",
@@ -1583,7 +1583,7 @@
               "dynamicPropertyPathList": [],
               "compactMode": "SHORT",
               "displayName": "Table",
-              "bottomRow": 156,
+              "bottomRow": 189,
               "columnWidthMap": {
                 "task": 245,
                 "step": 70,
@@ -1678,45 +1678,628 @@
               "verticalAlignment": "CENTER"
             },
             {
-              "boxShadow": "none",
-              "mobileBottomRow": 90,
-              "widgetName": "Image1",
-              "displayName": "Image",
-              "iconSVG": "/static/media/icon.30c8cbd442cce232b01ba2d434c53a53.svg",
-              "topRow": 68,
-              "bottomRow": 79,
+              "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+              "mobileBottomRow": 165,
+              "widgetName": "Chart3",
+              "allowScroll": false,
+              "displayName": "Chart",
+              "iconSVG": "/static/media/icon.04227b3516da60d6462fe38c74f88261.svg",
+              "searchTags": [
+                "graph",
+                "visuals",
+                "visualisations"
+              ],
+              "topRow": 64,
+              "bottomRow": 107,
               "parentRowSpace": 10,
-              "type": "IMAGE_WIDGET",
+              "type": "CHART_WIDGET",
               "hideCard": false,
               "mobileRightColumn": 24,
+              "chartData": {
+                "udp1cvxsgg": {
+                  "seriesName": "Sales",
+                  "data": "{{gke_group_memory.data.map( (obj) =>{ return  {'x': obj.total_memory, 'y': obj.memory_count } })}}"
+                }
+              },
               "animateLoading": true,
-              "parentColumnSpace": 19.8125,
+              "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
               "dynamicTriggerPathList": [],
-              "imageShape": "RECTANGLE",
-              "leftColumn": 5,
               "dynamicBindingPathList": [
                 {
+                  "key": "chartData.udp1cvxsgg.data"
+                },
+                {
                   "key": "borderRadius"
+                },
+                {
+                  "key": "boxShadow"
+                },
+                {
+                  "key": "accentColor"
+                },
+                {
+                  "key": "fontFamily"
                 }
               ],
-              "defaultImage": "https://static-00.iconduck.com/assets.00/google-gke-icon-512x457-q6s0e3iu.png",
-              "key": "vfnri0fzy3",
-              "image": "",
+              "leftColumn": 33,
+              "customFusionChartConfig": {
+                "type": "column2d",
+                "dataSource": {
+                  "data": [
+                    {
+                      "label": "Product1",
+                      "value": 20000
+                    },
+                    {
+                      "label": "Product2",
+                      "value": 22000
+                    },
+                    {
+                      "label": "Product3",
+                      "value": 32000
+                    }
+                  ],
+                  "chart": {
+                    "caption": "Sales Report",
+                    "xAxisName": "Product Line",
+                    "yAxisName": "Revenue($)",
+                    "theme": "fusion",
+                    "alignCaptionWithCanvas": 1,
+                    "captionFontSize": "24",
+                    "captionAlignment": "center",
+                    "captionPadding": "20",
+                    "captionFontColor": "#231F20",
+                    "legendIconSides": "4",
+                    "legendIconBgAlpha": "100",
+                    "legendIconAlpha": "100",
+                    "legendPosition": "top",
+                    "canvasPadding": "0",
+                    "chartLeftMargin": "20",
+                    "chartTopMargin": "10",
+                    "chartRightMargin": "40",
+                    "chartBottomMargin": "10",
+                    "xAxisNameFontSize": "14",
+                    "labelFontSize": "12",
+                    "labelFontColor": "#716e6e",
+                    "xAxisNameFontColor": "#716e6e",
+                    "yAxisNameFontSize": "14",
+                    "yAxisValueFontSize": "12",
+                    "yAxisValueFontColor": "#716e6e",
+                    "yAxisNameFontColor": "#716e6e"
+                  }
+                }
+              },
+              "key": "43erx8csnh",
               "isDeprecated": false,
-              "rightColumn": 10,
-              "objectFit": "contain",
-              "widgetId": "1ykj3uenh0",
+              "rightColumn": 64,
+              "widgetId": "joqz1utc4k",
+              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+              "minWidth": 450,
               "isVisible": true,
               "version": 1,
               "parentId": "0",
+              "labelOrientation": "auto",
               "renderMode": "CANVAS",
               "isLoading": false,
-              "mobileTopRow": 78,
-              "maxZoomLevel": 1,
-              "enableDownload": false,
+              "mobileTopRow": 133,
+              "responsiveBehavior": "fill",
+              "yAxisName": "Revenue($)",
+              "chartName": "Memory",
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "mobileLeftColumn": 12,
-              "enableRotation": false
+              "mobileLeftColumn": 0,
+              "xAxisName": "Product Line",
+              "chartType": "PIE_CHART"
+            },
+            {
+              "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+              "mobileBottomRow": 206,
+              "widgetName": "Chart4",
+              "allowScroll": false,
+              "displayName": "Chart",
+              "iconSVG": "/static/media/icon.04227b3516da60d6462fe38c74f88261.svg",
+              "searchTags": [
+                "graph",
+                "visuals",
+                "visualisations"
+              ],
+              "topRow": 107,
+              "bottomRow": 151,
+              "parentRowSpace": 10,
+              "type": "CHART_WIDGET",
+              "hideCard": false,
+              "mobileRightColumn": 24,
+              "chartData": {
+                "8r8iz56zv0": {
+                  "seriesName": "Sales",
+                  "data": "{{gke_group_disksize.data.map( (obj) =>{ return  {'x': obj.disk_size_str, 'y': obj.disk_count } })}}"
+                }
+              },
+              "animateLoading": true,
+              "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+              "dynamicTriggerPathList": [],
+              "dynamicBindingPathList": [
+                {
+                  "key": "chartData.8r8iz56zv0.data"
+                },
+                {
+                  "key": "borderRadius"
+                },
+                {
+                  "key": "boxShadow"
+                },
+                {
+                  "key": "accentColor"
+                },
+                {
+                  "key": "fontFamily"
+                }
+              ],
+              "leftColumn": 0,
+              "customFusionChartConfig": {
+                "type": "column2d",
+                "dataSource": {
+                  "data": [
+                    {
+                      "label": "Product1",
+                      "value": 20000
+                    },
+                    {
+                      "label": "Product2",
+                      "value": 22000
+                    },
+                    {
+                      "label": "Product3",
+                      "value": 32000
+                    }
+                  ],
+                  "chart": {
+                    "caption": "Sales Report",
+                    "xAxisName": "Product Line",
+                    "yAxisName": "Revenue($)",
+                    "theme": "fusion",
+                    "alignCaptionWithCanvas": 1,
+                    "captionFontSize": "24",
+                    "captionAlignment": "center",
+                    "captionPadding": "20",
+                    "captionFontColor": "#231F20",
+                    "legendIconSides": "4",
+                    "legendIconBgAlpha": "100",
+                    "legendIconAlpha": "100",
+                    "legendPosition": "top",
+                    "canvasPadding": "0",
+                    "chartLeftMargin": "20",
+                    "chartTopMargin": "10",
+                    "chartRightMargin": "40",
+                    "chartBottomMargin": "10",
+                    "xAxisNameFontSize": "14",
+                    "labelFontSize": "12",
+                    "labelFontColor": "#716e6e",
+                    "xAxisNameFontColor": "#716e6e",
+                    "yAxisNameFontSize": "14",
+                    "yAxisValueFontSize": "12",
+                    "yAxisValueFontColor": "#716e6e",
+                    "yAxisNameFontColor": "#716e6e"
+                  }
+                }
+              },
+              "key": "43erx8csnh",
+              "isDeprecated": false,
+              "rightColumn": 33,
+              "widgetId": "zs2aylexwl",
+              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+              "minWidth": 450,
+              "isVisible": true,
+              "version": 1,
+              "parentId": "0",
+              "labelOrientation": "auto",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "mobileTopRow": 174,
+              "responsiveBehavior": "fill",
+              "yAxisName": "Revenue($)",
+              "chartName": "Disk Size",
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "mobileLeftColumn": 0,
+              "xAxisName": "Product Line",
+              "chartType": "PIE_CHART"
+            },
+            {
+              "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+              "mobileBottomRow": 207,
+              "widgetName": "Chart5",
+              "allowScroll": false,
+              "displayName": "Chart",
+              "iconSVG": "/static/media/icon.04227b3516da60d6462fe38c74f88261.svg",
+              "searchTags": [
+                "graph",
+                "visuals",
+                "visualisations"
+              ],
+              "topRow": 107,
+              "bottomRow": 151,
+              "parentRowSpace": 10,
+              "type": "CHART_WIDGET",
+              "hideCard": false,
+              "mobileRightColumn": 24,
+              "chartData": {
+                "6iin32ypvs": {
+                  "seriesName": "Sales",
+                  "data": "{{gke_group_vcpus.data.map( (obj) =>{ return  {'x': obj.vcpus, 'y': obj.vcpus_count } })}}"
+                }
+              },
+              "animateLoading": true,
+              "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+              "dynamicTriggerPathList": [],
+              "dynamicBindingPathList": [
+                {
+                  "key": "chartData.6iin32ypvs.data"
+                },
+                {
+                  "key": "borderRadius"
+                },
+                {
+                  "key": "boxShadow"
+                },
+                {
+                  "key": "accentColor"
+                },
+                {
+                  "key": "fontFamily"
+                }
+              ],
+              "leftColumn": 33,
+              "customFusionChartConfig": {
+                "type": "column2d",
+                "dataSource": {
+                  "data": [
+                    {
+                      "label": "Product1",
+                      "value": 20000
+                    },
+                    {
+                      "label": "Product2",
+                      "value": 22000
+                    },
+                    {
+                      "label": "Product3",
+                      "value": 32000
+                    }
+                  ],
+                  "chart": {
+                    "caption": "Sales Report",
+                    "xAxisName": "Product Line",
+                    "yAxisName": "Revenue($)",
+                    "theme": "fusion",
+                    "alignCaptionWithCanvas": 1,
+                    "captionFontSize": "24",
+                    "captionAlignment": "center",
+                    "captionPadding": "20",
+                    "captionFontColor": "#231F20",
+                    "legendIconSides": "4",
+                    "legendIconBgAlpha": "100",
+                    "legendIconAlpha": "100",
+                    "legendPosition": "top",
+                    "canvasPadding": "0",
+                    "chartLeftMargin": "20",
+                    "chartTopMargin": "10",
+                    "chartRightMargin": "40",
+                    "chartBottomMargin": "10",
+                    "xAxisNameFontSize": "14",
+                    "labelFontSize": "12",
+                    "labelFontColor": "#716e6e",
+                    "xAxisNameFontColor": "#716e6e",
+                    "yAxisNameFontSize": "14",
+                    "yAxisValueFontSize": "12",
+                    "yAxisValueFontColor": "#716e6e",
+                    "yAxisNameFontColor": "#716e6e"
+                  }
+                }
+              },
+              "key": "43erx8csnh",
+              "isDeprecated": false,
+              "rightColumn": 64,
+              "widgetId": "7xnr9jwz82",
+              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+              "minWidth": 450,
+              "isVisible": true,
+              "version": 1,
+              "parentId": "0",
+              "labelOrientation": "auto",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "mobileTopRow": 175,
+              "responsiveBehavior": "fill",
+              "yAxisName": "Revenue($)",
+              "chartName": "CPUs",
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "mobileLeftColumn": 0,
+              "xAxisName": "Product Line",
+              "chartType": "PIE_CHART"
+            },
+            {
+              "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+              "mobileBottomRow": 207,
+              "widgetName": "Chart6",
+              "allowScroll": false,
+              "displayName": "Chart",
+              "iconSVG": "/static/media/icon.04227b3516da60d6462fe38c74f88261.svg",
+              "searchTags": [
+                "graph",
+                "visuals",
+                "visualisations"
+              ],
+              "topRow": 189,
+              "bottomRow": 272,
+              "parentRowSpace": 10,
+              "type": "CHART_WIDGET",
+              "hideCard": false,
+              "mobileRightColumn": 24,
+              "chartData": {
+                "we00nwjqxy": {
+                  "seriesName": "Sales",
+                  "data": "{{gke_group_instances.data.map( (obj) =>{ return  {'x': obj.instance_type, 'y': obj.instance_count } })}}"
+                }
+              },
+              "animateLoading": true,
+              "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+              "dynamicTriggerPathList": [],
+              "dynamicBindingPathList": [
+                {
+                  "key": "chartData.we00nwjqxy.data"
+                },
+                {
+                  "key": "borderRadius"
+                },
+                {
+                  "key": "boxShadow"
+                },
+                {
+                  "key": "accentColor"
+                },
+                {
+                  "key": "fontFamily"
+                }
+              ],
+              "leftColumn": 0,
+              "customFusionChartConfig": {
+                "type": "column2d",
+                "dataSource": {
+                  "data": [
+                    {
+                      "label": "Product1",
+                      "value": 20000
+                    },
+                    {
+                      "label": "Product2",
+                      "value": 22000
+                    },
+                    {
+                      "label": "Product3",
+                      "value": 32000
+                    }
+                  ],
+                  "chart": {
+                    "caption": "Sales Report",
+                    "xAxisName": "Product Line",
+                    "yAxisName": "Revenue($)",
+                    "theme": "fusion",
+                    "alignCaptionWithCanvas": 1,
+                    "captionFontSize": "24",
+                    "captionAlignment": "center",
+                    "captionPadding": "20",
+                    "captionFontColor": "#231F20",
+                    "legendIconSides": "4",
+                    "legendIconBgAlpha": "100",
+                    "legendIconAlpha": "100",
+                    "legendPosition": "top",
+                    "canvasPadding": "0",
+                    "chartLeftMargin": "20",
+                    "chartTopMargin": "10",
+                    "chartRightMargin": "40",
+                    "chartBottomMargin": "10",
+                    "xAxisNameFontSize": "14",
+                    "labelFontSize": "12",
+                    "labelFontColor": "#716e6e",
+                    "xAxisNameFontColor": "#716e6e",
+                    "yAxisNameFontSize": "14",
+                    "yAxisValueFontSize": "12",
+                    "yAxisValueFontColor": "#716e6e",
+                    "yAxisNameFontColor": "#716e6e"
+                  }
+                }
+              },
+              "key": "43erx8csnh",
+              "isDeprecated": false,
+              "rightColumn": 52,
+              "widgetId": "r3j74kvipr",
+              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+              "minWidth": 450,
+              "isVisible": true,
+              "version": 1,
+              "parentId": "0",
+              "labelOrientation": "auto",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "mobileTopRow": 175,
+              "responsiveBehavior": "fill",
+              "yAxisName": "",
+              "chartName": "Instance Type",
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "mobileLeftColumn": 0,
+              "xAxisName": "",
+              "chartType": "BAR_CHART"
+            },
+            {
+              "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+              "borderColor": "#E0DEDE",
+              "isVisibleDownload": false,
+              "iconSVG": "/static/media/icon.24905525921dd6f5ff46d0dd843b9e12.svg",
+              "topRow": 189,
+              "isSortable": true,
+              "type": "TABLE_WIDGET_V2",
+              "inlineEditingSaveOption": "ROW_LEVEL",
+              "animateLoading": true,
+              "dynamicBindingPathList": [
+                {
+                  "key": "tableData"
+                },
+                {
+                  "key": "accentColor"
+                },
+                {
+                  "key": "borderRadius"
+                },
+                {
+                  "key": "boxShadow"
+                },
+                {
+                  "key": "primaryColumns.instance_type.computedValue"
+                },
+                {
+                  "key": "primaryColumns.instance_count.computedValue"
+                }
+              ],
+              "needsHeightForContent": true,
+              "leftColumn": 52,
+              "delimiter": ",",
+              "defaultSelectedRowIndex": 0,
+              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+              "isVisibleFilters": false,
+              "isVisible": true,
+              "enableClientSideSearch": true,
+              "version": 1,
+              "totalRecordsCount": 0,
+              "isLoading": false,
+              "childStylesheet": {
+                "button": {
+                  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "boxShadow": "none"
+                },
+                "menuButton": {
+                  "menuColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "boxShadow": "none"
+                },
+                "iconButton": {
+                  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "boxShadow": "none"
+                },
+                "editActions": {
+                  "saveButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "saveBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "discardButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "discardBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
+                }
+              },
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "columnUpdatedAt": 1687704932161,
+              "defaultSelectedRowIndices": [
+                0
+              ],
+              "mobileBottomRow": 244,
+              "widgetName": "Table3",
+              "defaultPageSize": 0,
+              "columnOrder": [
+                "instance_type",
+                "instance_count"
+              ],
+              "dynamicPropertyPathList": [],
+              "compactMode": "SHORT",
+              "displayName": "Table",
+              "bottomRow": 272,
+              "columnWidthMap": {
+                "task": 245,
+                "step": 70,
+                "status": 85
+              },
+              "parentRowSpace": 10,
+              "hideCard": false,
+              "mobileRightColumn": 34,
+              "dynamicTriggerPathList": [],
+              "borderWidth": "1",
+              "primaryColumns": {
+                "instance_type": {
+                  "allowCellWrapping": false,
+                  "allowSameOptionsInNewRow": true,
+                  "index": 0,
+                  "width": 150,
+                  "originalId": "instance_type",
+                  "id": "instance_type",
+                  "alias": "instance_type",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textColor": "",
+                  "textSize": "0.875rem",
+                  "fontStyle": "",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellEditable": false,
+                  "isEditable": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "Instance",
+                  "isSaveVisible": true,
+                  "isDiscardVisible": true,
+                  "computedValue": "{{Table3.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"instance_type\"]))}}",
+                  "sticky": "",
+                  "validation": {},
+                  "cellBackground": ""
+                },
+                "instance_count": {
+                  "allowCellWrapping": false,
+                  "allowSameOptionsInNewRow": true,
+                  "index": 1,
+                  "width": 150,
+                  "originalId": "instance_count",
+                  "id": "instance_count",
+                  "alias": "instance_count",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "number",
+                  "textColor": "",
+                  "textSize": "0.875rem",
+                  "fontStyle": "",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellEditable": false,
+                  "isEditable": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "Count",
+                  "isSaveVisible": true,
+                  "isDiscardVisible": true,
+                  "computedValue": "{{Table3.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"instance_count\"]))}}",
+                  "sticky": "",
+                  "validation": {},
+                  "cellBackground": ""
+                }
+              },
+              "key": "4e15h1poey",
+              "canFreezeColumn": true,
+              "isDeprecated": false,
+              "rightColumn": 64,
+              "textSize": "0.875rem",
+              "widgetId": "jmq98ahty8",
+              "minWidth": 450,
+              "tableData": "{{gke_group_instances.data}}",
+              "label": "Data",
+              "searchKey": "",
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "mobileTopRow": 216,
+              "horizontalAlignment": "LEFT",
+              "isVisibleSearch": false,
+              "responsiveBehavior": "fill",
+              "mobileLeftColumn": 0,
+              "isVisiblePagination": false,
+              "verticalAlignment": "CENTER"
             }
           ]
         },
@@ -1739,6 +2322,14 @@
               "timeoutInMillisecond": 10000
             },
             {
+              "id": "GKE_gke_group_instances",
+              "name": "gke_group_instances",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
+            {
               "id": "GKE_gke_group_version",
               "name": "gke_group_version",
               "confirmBeforeExecute": false,
@@ -1749,8 +2340,32 @@
           ],
           [
             {
+              "id": "GKE_gke_group_disksize",
+              "name": "gke_group_disksize",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
+            {
               "id": "GKE_gke_group_location",
               "name": "gke_group_location",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "GKE_gke_group_memory",
+              "name": "gke_group_memory",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "GKE_gke_group_vcpus",
+              "name": "gke_group_vcpus",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [],
