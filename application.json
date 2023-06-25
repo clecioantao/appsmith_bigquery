@@ -3,6 +3,10 @@
     {
       "id": "BigQuery",
       "isDefault": true
+    },
+    {
+      "id": "GKE",
+      "isDefault": false
     }
   ],
   "viewMode": false,

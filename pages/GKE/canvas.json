@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "BigQuery",
-    "slug": "bigquery",
+    "name": "GKE",
+    "slug": "gke",
     "layouts": [
       {
         "viewMode": false,
@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1100,
+          "bottomRow": 1560,
           "containerStyle": "none",
           "snapRows": 124,
           "parentRowSpace": 1,
@@ -73,6 +73,47 @@
                   ],
                   "children": [
                     {
+                      "boxShadow": "none",
+                      "mobileBottomRow": 90,
+                      "widgetName": "Image1Copy",
+                      "displayName": "Image",
+                      "iconSVG": "/static/media/icon.30c8cbd442cce232b01ba2d434c53a53.svg",
+                      "topRow": 1,
+                      "bottomRow": 17,
+                      "parentRowSpace": 10,
+                      "type": "IMAGE_WIDGET",
+                      "hideCard": false,
+                      "mobileRightColumn": 24,
+                      "animateLoading": true,
+                      "parentColumnSpace": 19.8125,
+                      "dynamicTriggerPathList": [],
+                      "imageShape": "RECTANGLE",
+                      "leftColumn": 1,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "borderRadius"
+                        }
+                      ],
+                      "defaultImage": "https://static-00.iconduck.com/assets.00/google-gke-icon-512x457-q6s0e3iu.png",
+                      "key": "vfnri0fzy3",
+                      "image": "",
+                      "isDeprecated": false,
+                      "rightColumn": 9,
+                      "objectFit": "contain",
+                      "widgetId": "r0siistvf3",
+                      "isVisible": true,
+                      "version": 1,
+                      "parentId": "pder92nnb1",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "mobileTopRow": 78,
+                      "maxZoomLevel": 1,
+                      "enableDownload": false,
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "mobileLeftColumn": 12,
+                      "enableRotation": false
+                    },
+                    {
                       "widgetName": "appTitle",
                       "displayName": "Text",
                       "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
@@ -91,14 +132,14 @@
                       "fontFamily": "Inter",
                       "parentColumnSpace": 18.26171875,
                       "dynamicTriggerPathList": [],
-                      "leftColumn": 0,
+                      "leftColumn": 9,
                       "dynamicBindingPathList": [
                         {
                           "key": "borderRadius"
                         }
                       ],
                       "shouldTruncate": false,
-                      "text": "Analise BigQuery - Diária",
+                      "text": "Analise GKE",
                       "key": "nkrcthnrzv",
                       "isDeprecated": false,
                       "rightColumn": 61,
@@ -717,224 +758,6 @@
                       "borderRadius": "0.375rem",
                       "maxDynamicHeight": 9000,
                       "minDynamicHeight": 4
-                    },
-                    {
-                      "boxShadow": "none",
-                      "widgetName": "Statbox1Copy1CopyCopyCopy",
-                      "borderColor": "transparent",
-                      "isCanvas": true,
-                      "displayName": "Stats Box",
-                      "iconSVG": "/static/media/icon.382a7c7b.svg",
-                      "topRow": 6,
-                      "bottomRow": 17,
-                      "parentRowSpace": 10,
-                      "type": "STATBOX_WIDGET",
-                      "hideCard": false,
-                      "shouldScrollContents": true,
-                      "animateLoading": true,
-                      "parentColumnSpace": 17.9375,
-                      "dynamicTriggerPathList": [],
-                      "leftColumn": 8,
-                      "dynamicBindingPathList": [],
-                      "children": [
-                        {
-                          "boxShadow": "none",
-                          "widgetName": "Canvas1Copy1CopyCopyCopy",
-                          "displayName": "Canvas",
-                          "topRow": 0,
-                          "bottomRow": 100,
-                          "parentRowSpace": 1,
-                          "type": "CANVAS_WIDGET",
-                          "canExtend": false,
-                          "hideCard": true,
-                          "minHeight": 140,
-                          "parentColumnSpace": 1,
-                          "leftColumn": 0,
-                          "dynamicBindingPathList": [
-                            {
-                              "key": "borderRadius"
-                            },
-                            {
-                              "key": "accentColor"
-                            }
-                          ],
-                          "children": [
-                            {
-                              "widgetName": "Text1Copy1CopyCopyCopy",
-                              "displayName": "Text",
-                              "iconSVG": "/static/media/icon.97c59b52.svg",
-                              "searchTags": [
-                                "typography",
-                                "paragraph"
-                              ],
-                              "topRow": 0,
-                              "bottomRow": 4,
-                              "type": "TEXT_WIDGET",
-                              "hideCard": false,
-                              "animateLoading": true,
-                              "overflow": "NONE",
-                              "fontFamily": "Inter",
-                              "dynamicTriggerPathList": [],
-                              "leftColumn": 32,
-                              "dynamicBindingPathList": [
-                                {
-                                  "key": "borderRadius"
-                                }
-                              ],
-                              "shouldTruncate": false,
-                              "truncateButtonColor": "#FFC13D",
-                              "text": "Total PBytes",
-                              "key": "xx7obgmjct",
-                              "isDeprecated": false,
-                              "rightColumn": 61,
-                              "textAlign": "RIGHT",
-                              "dynamicHeight": "FIXED",
-                              "widgetId": "y4w8nxcnck",
-                              "isVisible": true,
-                              "fontStyle": "BOLD",
-                              "textColor": "#312e81",
-                              "version": 1,
-                              "parentId": "wr8pnv5tn7",
-                              "renderMode": "CANVAS",
-                              "isLoading": false,
-                              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                              "maxDynamicHeight": 9000,
-                              "fontSize": "1rem",
-                              "minDynamicHeight": 4
-                            },
-                            {
-                              "mobileBottomRow": 8,
-                              "widgetName": "Text2Copy1CopyCopyCopy",
-                              "displayName": "Text",
-                              "iconSVG": "/static/media/icon.c3b6033f570046f8c6288d911333a827.svg",
-                              "searchTags": [
-                                "typography",
-                                "paragraph",
-                                "label"
-                              ],
-                              "topRow": 4,
-                              "bottomRow": 8,
-                              "type": "TEXT_WIDGET",
-                              "hideCard": false,
-                              "mobileRightColumn": 37,
-                              "animateLoading": true,
-                              "overflow": "NONE",
-                              "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-                              "dynamicTriggerPathList": [],
-                              "leftColumn": 6,
-                              "dynamicBindingPathList": [
-                                {
-                                  "key": "truncateButtonColor"
-                                },
-                                {
-                                  "key": "fontFamily"
-                                },
-                                {
-                                  "key": "borderRadius"
-                                },
-                                {
-                                  "key": "text"
-                                }
-                              ],
-                              "shouldTruncate": false,
-                              "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-                              "text": "{{SumPBytes.data[0].petabytessum}}",
-                              "key": "xqm62xi070",
-                              "isDeprecated": false,
-                              "rightColumn": 62,
-                              "textAlign": "RIGHT",
-                              "dynamicHeight": "FIXED",
-                              "widgetId": "1cxgi39r5m",
-                              "minWidth": 450,
-                              "isVisible": true,
-                              "fontStyle": "BOLD",
-                              "textColor": "#231F20",
-                              "version": 1,
-                              "parentId": "wr8pnv5tn7",
-                              "renderMode": "CANVAS",
-                              "isLoading": false,
-                              "mobileTopRow": 4,
-                              "responsiveBehavior": "fill",
-                              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                              "mobileLeftColumn": 1,
-                              "maxDynamicHeight": 9000,
-                              "fontSize": "1.25rem",
-                              "minDynamicHeight": 4
-                            }
-                          ],
-                          "key": "ysppwevet6",
-                          "isDeprecated": false,
-                          "rightColumn": 287,
-                          "detachFromLayout": true,
-                          "widgetId": "wr8pnv5tn7",
-                          "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-                          "containerStyle": "none",
-                          "isVisible": true,
-                          "version": 1,
-                          "parentId": "t5gq2masip",
-                          "renderMode": "CANVAS",
-                          "isLoading": false,
-                          "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
-                        }
-                      ],
-                      "borderWidth": "1.8",
-                      "key": "5s6ek19ev7",
-                      "backgroundColor": "#fff",
-                      "isDeprecated": false,
-                      "rightColumn": 22,
-                      "dynamicHeight": "FIXED",
-                      "widgetId": "t5gq2masip",
-                      "isVisible": true,
-                      "parentId": "pder92nnb1",
-                      "renderMode": "CANVAS",
-                      "isLoading": false,
-                      "borderRadius": "0.375rem",
-                      "maxDynamicHeight": 9000,
-                      "minDynamicHeight": 4
-                    },
-                    {
-                      "boxShadow": "none",
-                      "mobileBottomRow": 36,
-                      "widgetName": "IconButton1",
-                      "buttonColor": "#312e81",
-                      "displayName": "Icon button",
-                      "iconSVG": "/static/media/icon.80fc7466c0d7181ec0271de7fda795ec.svg",
-                      "searchTags": [
-                        "click",
-                        "submit"
-                      ],
-                      "topRow": 4,
-                      "bottomRow": 18,
-                      "parentRowSpace": 10,
-                      "type": "ICON_BUTTON_WIDGET",
-                      "hideCard": false,
-                      "mobileRightColumn": 56,
-                      "animateLoading": true,
-                      "parentColumnSpace": 19.8125,
-                      "dynamicTriggerPathList": [],
-                      "leftColumn": 0,
-                      "dynamicBindingPathList": [
-                        {
-                          "key": "borderRadius"
-                        }
-                      ],
-                      "isDisabled": false,
-                      "key": "olgpzba6br",
-                      "isDeprecated": false,
-                      "rightColumn": 8,
-                      "iconName": "database",
-                      "widgetId": "ipxqlh6b4y",
-                      "minWidth": 50,
-                      "isVisible": true,
-                      "version": 1,
-                      "parentId": "pder92nnb1",
-                      "renderMode": "CANVAS",
-                      "isLoading": false,
-                      "mobileTopRow": 32,
-                      "responsiveBehavior": "hug",
-                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "mobileLeftColumn": 52,
-                      "buttonVariant": "PRIMARY"
                     }
                   ],
                   "key": "zzj3dek0bq",
@@ -972,11 +795,11 @@
               "minDynamicHeight": 4
             },
             {
-              "boxShadow": "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
+              "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
               "borderColor": "#E0DEDE",
               "isVisibleDownload": true,
               "iconSVG": "/static/media/icon.24905525921dd6f5ff46d0dd843b9e12.svg",
-              "topRow": 53,
+              "topRow": 21,
               "isSortable": true,
               "type": "TABLE_WIDGET_V2",
               "inlineEditingSaveOption": "ROW_LEVEL",
@@ -992,13 +815,40 @@
                   "key": "borderRadius"
                 },
                 {
+                  "key": "boxShadow"
+                },
+                {
                   "key": "primaryColumns.project_id.computedValue"
                 },
                 {
-                  "key": "primaryColumns.dataset_id.computedValue"
+                  "key": "primaryColumns.name.computedValue"
                 },
                 {
-                  "key": "primaryColumns.size_bytes.computedValue"
+                  "key": "primaryColumns.location.computedValue"
+                },
+                {
+                  "key": "primaryColumns.master_ip.computedValue"
+                },
+                {
+                  "key": "primaryColumns.version.computedValue"
+                },
+                {
+                  "key": "primaryColumns.instance_type.computedValue"
+                },
+                {
+                  "key": "primaryColumns.total_memory.computedValue"
+                },
+                {
+                  "key": "primaryColumns.autoscaling_enabled.computedValue"
+                },
+                {
+                  "key": "primaryColumns.min_nodes.computedValue"
+                },
+                {
+                  "key": "primaryColumns.max_nodes.computedValue"
+                },
+                {
+                  "key": "primaryColumns.ipv4_pod_ip_range.computedValue"
                 }
               ],
               "needsHeightForContent": true,
@@ -1008,10 +858,8 @@
               "accentColor": "{{appsmith.theme.colors.primaryColor}}",
               "isVisibleFilters": true,
               "isVisible": true,
-              "fontStyle": "",
               "enableClientSideSearch": true,
               "version": 1,
-              "textColor": "#312e81",
               "totalRecordsCount": 0,
               "isLoading": false,
               "childStylesheet": {
@@ -1038,30 +886,35 @@
                 }
               },
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "columnUpdatedAt": 1687166047518,
-              "originalBottomRow": 142,
-              "primaryColumnId": "project_id",
+              "columnUpdatedAt": 1687650601711,
               "defaultSelectedRowIndices": [
                 0
               ],
-              "mobileBottomRow": 29,
+              "mobileBottomRow": 49,
               "widgetName": "Table1",
               "defaultPageSize": 0,
               "columnOrder": [
                 "project_id",
-                "dataset_id",
-                "size_bytes"
+                "name",
+                "master_ip",
+                "location",
+                "version",
+                "instance_type",
+                "total_memory",
+                "autoscaling_enabled",
+                "min_nodes",
+                "max_nodes",
+                "ipv4_pod_ip_range"
               ],
               "dynamicPropertyPathList": [],
-              "compactMode": "SHORT",
               "displayName": "Table",
-              "bottomRow": 110,
+              "bottomRow": 60,
               "columnWidthMap": {
                 "task": 245,
                 "step": 70,
                 "status": 85,
-                "dataset_id": 316,
-                "project_id": 280
+                "total_memory": 101,
+                "autoscaling_enabled": 125
               },
               "parentRowSpace": 10,
               "hideCard": false,
@@ -1080,7 +933,7 @@
                   "horizontalAlignment": "LEFT",
                   "verticalAlignment": "CENTER",
                   "columnType": "text",
-                  "textColor": "#312e81",
+                  "textColor": "",
                   "textSize": "0.875rem",
                   "fontStyle": "",
                   "enableFilter": true,
@@ -1091,7 +944,7 @@
                   "isEditable": false,
                   "isCellVisible": true,
                   "isDerived": false,
-                  "label": "Projeto",
+                  "label": "project_id",
                   "isSaveVisible": true,
                   "isDiscardVisible": true,
                   "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"project_id\"]))}}",
@@ -1099,18 +952,18 @@
                   "validation": {},
                   "cellBackground": ""
                 },
-                "dataset_id": {
+                "name": {
                   "allowCellWrapping": false,
                   "allowSameOptionsInNewRow": true,
                   "index": 1,
                   "width": 150,
-                  "originalId": "dataset_id",
-                  "id": "dataset_id",
-                  "alias": "dataset_id",
+                  "originalId": "name",
+                  "id": "name",
+                  "alias": "name",
                   "horizontalAlignment": "LEFT",
                   "verticalAlignment": "CENTER",
                   "columnType": "text",
-                  "textColor": "#312e81",
+                  "textColor": "",
                   "textSize": "0.875rem",
                   "fontStyle": "",
                   "enableFilter": true,
@@ -1121,26 +974,26 @@
                   "isEditable": false,
                   "isCellVisible": true,
                   "isDerived": false,
-                  "label": "Dataset",
+                  "label": "Cluster",
                   "isSaveVisible": true,
                   "isDiscardVisible": true,
-                  "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"dataset_id\"]))}}",
+                  "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"name\"]))}}",
                   "sticky": "",
                   "validation": {},
                   "cellBackground": ""
                 },
-                "size_bytes": {
+                "location": {
                   "allowCellWrapping": false,
                   "allowSameOptionsInNewRow": true,
                   "index": 2,
                   "width": 150,
-                  "originalId": "size_bytes",
-                  "id": "size_bytes",
-                  "alias": "size_bytes",
-                  "horizontalAlignment": "RIGHT",
+                  "originalId": "location",
+                  "id": "location",
+                  "alias": "location",
+                  "horizontalAlignment": "LEFT",
                   "verticalAlignment": "CENTER",
-                  "columnType": "number",
-                  "textColor": "#312e81",
+                  "columnType": "text",
+                  "textColor": "",
                   "textSize": "0.875rem",
                   "fontStyle": "",
                   "enableFilter": true,
@@ -1151,40 +1004,279 @@
                   "isEditable": false,
                   "isCellVisible": true,
                   "isDerived": false,
-                  "label": "Tamanho (Bytes)",
+                  "label": "location",
                   "isSaveVisible": true,
                   "isDiscardVisible": true,
-                  "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"size_bytes\"]))}}",
+                  "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"location\"]))}}",
+                  "sticky": "",
+                  "validation": {},
+                  "cellBackground": ""
+                },
+                "master_ip": {
+                  "allowCellWrapping": false,
+                  "allowSameOptionsInNewRow": true,
+                  "index": 3,
+                  "width": 150,
+                  "originalId": "master_ip",
+                  "id": "master_ip",
+                  "alias": "master_ip",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textColor": "",
+                  "textSize": "0.875rem",
+                  "fontStyle": "",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellEditable": false,
+                  "isEditable": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "master_ip",
+                  "isSaveVisible": true,
+                  "isDiscardVisible": true,
+                  "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"master_ip\"]))}}",
+                  "sticky": "",
+                  "validation": {},
+                  "cellBackground": ""
+                },
+                "version": {
+                  "allowCellWrapping": false,
+                  "allowSameOptionsInNewRow": true,
+                  "index": 4,
+                  "width": 150,
+                  "originalId": "version",
+                  "id": "version",
+                  "alias": "version",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textColor": "",
+                  "textSize": "0.875rem",
+                  "fontStyle": "",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellEditable": false,
+                  "isEditable": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "version",
+                  "isSaveVisible": true,
+                  "isDiscardVisible": true,
+                  "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"version\"]))}}",
+                  "sticky": "",
+                  "validation": {},
+                  "cellBackground": ""
+                },
+                "instance_type": {
+                  "allowCellWrapping": false,
+                  "allowSameOptionsInNewRow": true,
+                  "index": 5,
+                  "width": 150,
+                  "originalId": "instance_type",
+                  "id": "instance_type",
+                  "alias": "instance_type",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textColor": "",
+                  "textSize": "0.875rem",
+                  "fontStyle": "",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellEditable": false,
+                  "isEditable": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "Instance",
+                  "isSaveVisible": true,
+                  "isDiscardVisible": true,
+                  "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"instance_type\"]))}}",
+                  "sticky": "",
+                  "validation": {},
+                  "cellBackground": ""
+                },
+                "total_memory": {
+                  "allowCellWrapping": false,
+                  "allowSameOptionsInNewRow": true,
+                  "index": 6,
+                  "width": 150,
+                  "originalId": "total_memory",
+                  "id": "total_memory",
+                  "alias": "total_memory",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textColor": "",
+                  "textSize": "0.875rem",
+                  "fontStyle": "",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellEditable": false,
+                  "isEditable": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "Memory",
+                  "isSaveVisible": true,
+                  "isDiscardVisible": true,
+                  "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"total_memory\"]))}}",
+                  "sticky": "",
+                  "validation": {},
+                  "cellBackground": ""
+                },
+                "autoscaling_enabled": {
+                  "allowCellWrapping": false,
+                  "allowSameOptionsInNewRow": true,
+                  "index": 7,
+                  "width": 150,
+                  "originalId": "autoscaling_enabled",
+                  "id": "autoscaling_enabled",
+                  "alias": "autoscaling_enabled",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "checkbox",
+                  "textColor": "",
+                  "textSize": "0.875rem",
+                  "fontStyle": "",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellEditable": false,
+                  "isEditable": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "Autoscaling",
+                  "isSaveVisible": true,
+                  "isDiscardVisible": true,
+                  "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"autoscaling_enabled\"]))}}",
+                  "sticky": "",
+                  "validation": {},
+                  "cellBackground": ""
+                },
+                "min_nodes": {
+                  "allowCellWrapping": false,
+                  "allowSameOptionsInNewRow": true,
+                  "index": 8,
+                  "width": 150,
+                  "originalId": "min_nodes",
+                  "id": "min_nodes",
+                  "alias": "min_nodes",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "number",
+                  "textColor": "",
+                  "textSize": "0.875rem",
+                  "fontStyle": "",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellEditable": false,
+                  "isEditable": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "min_nodes",
+                  "isSaveVisible": true,
+                  "isDiscardVisible": true,
+                  "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"min_nodes\"]))}}",
+                  "sticky": "",
+                  "validation": {},
+                  "cellBackground": ""
+                },
+                "max_nodes": {
+                  "allowCellWrapping": false,
+                  "allowSameOptionsInNewRow": true,
+                  "index": 9,
+                  "width": 150,
+                  "originalId": "max_nodes",
+                  "id": "max_nodes",
+                  "alias": "max_nodes",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "number",
+                  "textColor": "",
+                  "textSize": "0.875rem",
+                  "fontStyle": "",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellEditable": false,
+                  "isEditable": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "max_nodes",
+                  "isSaveVisible": true,
+                  "isDiscardVisible": true,
+                  "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"max_nodes\"]))}}",
+                  "sticky": "",
+                  "validation": {},
+                  "cellBackground": ""
+                },
+                "ipv4_pod_ip_range": {
+                  "allowCellWrapping": false,
+                  "allowSameOptionsInNewRow": true,
+                  "index": 10,
+                  "width": 150,
+                  "originalId": "ipv4_pod_ip_range",
+                  "id": "ipv4_pod_ip_range",
+                  "alias": "ipv4_pod_ip_range",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textColor": "",
+                  "textSize": "0.875rem",
+                  "fontStyle": "",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellEditable": false,
+                  "isEditable": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "ipv4_pod_ip_range",
+                  "isSaveVisible": true,
+                  "isDiscardVisible": true,
+                  "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"ipv4_pod_ip_range\"]))}}",
                   "sticky": "",
                   "validation": {},
                   "cellBackground": ""
                 }
               },
-              "key": "39kdd5qv3t",
+              "key": "8c2hvb7kkq",
               "canFreezeColumn": true,
               "isDeprecated": false,
-              "rightColumn": 40,
+              "rightColumn": 64,
               "textSize": "0.875rem",
-              "widgetId": "c1ds799zie",
+              "widgetId": "isj4azfsk6",
               "minWidth": 450,
-              "tableData": "{{All.data}}",
+              "tableData": "{{gke_all_clusters_nodes.data}}",
               "label": "Data",
               "searchKey": "",
               "parentId": "0",
               "renderMode": "CANVAS",
-              "mobileTopRow": 1,
+              "mobileTopRow": 21,
               "horizontalAlignment": "LEFT",
               "isVisibleSearch": true,
               "responsiveBehavior": "fill",
-              "originalTopRow": 59,
               "mobileLeftColumn": 0,
               "isVisiblePagination": true,
-              "cellBackground": "",
               "verticalAlignment": "CENTER"
             },
             {
-              "boxShadow": "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
-              "mobileBottomRow": 113,
+              "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+              "mobileBottomRow": 93,
+              "setAdaptiveYMin": false,
               "widgetName": "Chart1",
               "allowScroll": false,
               "displayName": "Chart",
@@ -1194,17 +1286,16 @@
                 "visuals",
                 "visualisations"
               ],
-              "topRow": 20,
-              "bottomRow": 53,
+              "topRow": 61,
+              "bottomRow": 104,
               "parentRowSpace": 10,
               "type": "CHART_WIDGET",
               "hideCard": false,
               "mobileRightColumn": 24,
               "chartData": {
-                "1nx5rhw171": {
-                  "seriesName": "Sales",
-                  "data": "{{topFive.data.map( (obj) =>{ return  {'x': obj.project_id, 'y': obj.size_bytes } })}}",
-                  "color": "#312e81"
+                "4d7kmnkgmq": {
+                  "seriesName": "",
+                  "data": "{{gke_group_location.data.map( (obj) =>{ return  {'x': obj.location, 'y': obj.loc_count } })}}"
                 }
               },
               "animateLoading": true,
@@ -1212,16 +1303,22 @@
               "dynamicTriggerPathList": [],
               "dynamicBindingPathList": [
                 {
-                  "key": "chartData.1nx5rhw171.data"
+                  "key": "borderRadius"
+                },
+                {
+                  "key": "boxShadow"
                 },
                 {
                   "key": "accentColor"
                 },
                 {
                   "key": "fontFamily"
+                },
+                {
+                  "key": "chartData.4d7kmnkgmq.data"
                 }
               ],
-              "leftColumn": 35,
+              "leftColumn": 24,
               "customFusionChartConfig": {
                 "type": "column2d",
                 "dataSource": {
@@ -1269,10 +1366,10 @@
                   }
                 }
               },
-              "key": "zx3hcuf6oj",
+              "key": "xgm267k0la",
               "isDeprecated": false,
-              "rightColumn": 64,
-              "widgetId": "yvmi87oboh",
+              "rightColumn": 58,
+              "widgetId": "fsczqzts2c",
               "accentColor": "{{appsmith.theme.colors.primaryColor}}",
               "minWidth": 450,
               "isVisible": true,
@@ -1281,24 +1378,21 @@
               "labelOrientation": "auto",
               "renderMode": "CANVAS",
               "isLoading": false,
-              "mobileTopRow": 81,
+              "mobileTopRow": 61,
               "responsiveBehavior": "fill",
-              "yAxisName": "Bytes",
-              "originalTopRow": 67,
-              "chartName": "Top Five",
-              "borderRadius": "0.375rem",
+              "yAxisName": "Revenue($)",
+              "chartName": "",
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "mobileLeftColumn": 0,
-              "xAxisName": "",
-              "originalBottomRow": 99,
-              "chartType": "BAR_CHART"
+              "xAxisName": "Product Line",
+              "chartType": "PIE_CHART"
             },
             {
-              "boxShadow": "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
-              "mobileBottomRow": 116,
+              "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+              "mobileBottomRow": 137,
               "setAdaptiveYMin": false,
               "widgetName": "Chart2",
               "allowScroll": false,
-              "dynamicPropertyPathList": [],
               "displayName": "Chart",
               "iconSVG": "/static/media/icon.04227b3516da60d6462fe38c74f88261.svg",
               "searchTags": [
@@ -1306,32 +1400,30 @@
                 "visuals",
                 "visualisations"
               ],
-              "topRow": 20,
-              "bottomRow": 53,
+              "topRow": 106,
+              "bottomRow": 156,
               "parentRowSpace": 10,
               "type": "CHART_WIDGET",
               "hideCard": false,
               "mobileRightColumn": 24,
               "chartData": {
-                "1lbstjw14x": {
-                  "seriesName": "{{SumBytes.data[0].bytessum}}",
-                  "data": "{{Summary.data.map( (obj) =>{ return  {'x': obj.date, 'y': obj.total_bytes } })}}",
-                  "color": "#312e81"
+                "3u7zzfccr3": {
+                  "seriesName": "Sales{{Count.data}}",
+                  "data": "{{gke_group_version.data.map( (obj) =>{ return  {'x': obj.version, 'y': obj.version_count } })}}"
                 }
               },
               "animateLoading": true,
               "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-              "dynamicTriggerPathList": [
-                {
-                  "key": "onDataPointClick"
-                }
-              ],
+              "dynamicTriggerPathList": [],
               "dynamicBindingPathList": [
                 {
-                  "key": "chartData.1lbstjw14x.data"
+                  "key": "chartData.3u7zzfccr3.data"
                 },
                 {
                   "key": "borderRadius"
+                },
+                {
+                  "key": "boxShadow"
                 },
                 {
                   "key": "accentColor"
@@ -1340,7 +1432,7 @@
                   "key": "fontFamily"
                 },
                 {
-                  "key": "chartData.1lbstjw14x.seriesName"
+                  "key": "chartData.3u7zzfccr3.seriesName"
                 }
               ],
               "leftColumn": 0,
@@ -1391,11 +1483,10 @@
                   }
                 }
               },
-              "onDataPointClick": "{{showAlert('teste', '');}}",
-              "key": "y079s0avme",
+              "key": "xgm267k0la",
               "isDeprecated": false,
-              "rightColumn": 35,
-              "widgetId": "b5vg6vjafk",
+              "rightColumn": 50,
+              "widgetId": "1dwwyd2krq",
               "accentColor": "{{appsmith.theme.colors.primaryColor}}",
               "minWidth": 450,
               "isVisible": true,
@@ -1404,134 +1495,252 @@
               "labelOrientation": "auto",
               "renderMode": "CANVAS",
               "isLoading": false,
-              "mobileTopRow": 84,
+              "mobileTopRow": 105,
               "responsiveBehavior": "fill",
-              "yAxisName": "Mega Bytes",
-              "chartName": "Sumário",
+              "yAxisName": "",
+              "chartName": "Sales Report",
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "mobileLeftColumn": 0,
               "xAxisName": "",
-              "chartType": "LINE_CHART"
+              "chartType": "BAR_CHART"
             },
             {
-              "boxShadow": "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
-              "mobileBottomRow": 143,
-              "setAdaptiveYMin": false,
-              "widgetName": "Chart3",
-              "allowScroll": false,
-              "displayName": "Chart",
-              "iconSVG": "/static/media/icon.04227b3516da60d6462fe38c74f88261.svg",
-              "searchTags": [
-                "graph",
-                "visuals",
-                "visualisations"
-              ],
-              "topRow": 53,
-              "bottomRow": 110,
-              "parentRowSpace": 10,
-              "type": "CHART_WIDGET",
-              "hideCard": false,
-              "mobileRightColumn": 24,
-              "chartData": {
-                "d8sjhiax6s": {
-                  "seriesName": "Sales",
-                  "data": "{{projectGroup.data.map( (obj) =>{ return  {'x': obj.project_id, 'y': obj.count } })}}",
-                  "color": "#312e81"
-                }
-              },
-              "animateLoading": false,
-              "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-              "dynamicTriggerPathList": [],
+              "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+              "borderColor": "#E0DEDE",
+              "isVisibleDownload": false,
+              "iconSVG": "/static/media/icon.24905525921dd6f5ff46d0dd843b9e12.svg",
+              "topRow": 106,
+              "isSortable": true,
+              "type": "TABLE_WIDGET_V2",
+              "inlineEditingSaveOption": "ROW_LEVEL",
+              "animateLoading": true,
               "dynamicBindingPathList": [
                 {
-                  "key": "chartData.d8sjhiax6s.data"
-                },
-                {
-                  "key": "borderRadius"
+                  "key": "tableData"
                 },
                 {
                   "key": "accentColor"
                 },
                 {
-                  "key": "fontFamily"
+                  "key": "borderRadius"
+                },
+                {
+                  "key": "boxShadow"
+                },
+                {
+                  "key": "primaryColumns.version.computedValue"
+                },
+                {
+                  "key": "primaryColumns.version_count.computedValue"
                 }
               ],
-              "leftColumn": 40,
-              "customFusionChartConfig": {
-                "type": "column2d",
-                "dataSource": {
-                  "data": [
-                    {
-                      "label": "Product1",
-                      "value": 20000
-                    },
-                    {
-                      "label": "Product2",
-                      "value": 22000
-                    },
-                    {
-                      "label": "Product3",
-                      "value": 32000
-                    }
-                  ],
-                  "chart": {
-                    "caption": "Sales Report",
-                    "xAxisName": "Product Line",
-                    "yAxisName": "Revenue($)",
-                    "theme": "fusion",
-                    "alignCaptionWithCanvas": 1,
-                    "captionFontSize": "24",
-                    "captionAlignment": "center",
-                    "captionPadding": "20",
-                    "captionFontColor": "#231F20",
-                    "legendIconSides": "4",
-                    "legendIconBgAlpha": "100",
-                    "legendIconAlpha": "100",
-                    "legendPosition": "top",
-                    "canvasPadding": "0",
-                    "chartLeftMargin": "20",
-                    "chartTopMargin": "10",
-                    "chartRightMargin": "40",
-                    "chartBottomMargin": "10",
-                    "xAxisNameFontSize": "14",
-                    "labelFontSize": "12",
-                    "labelFontColor": "#716e6e",
-                    "xAxisNameFontColor": "#716e6e",
-                    "yAxisNameFontSize": "14",
-                    "yAxisValueFontSize": "12",
-                    "yAxisValueFontColor": "#716e6e",
-                    "yAxisNameFontColor": "#716e6e"
-                  }
+              "needsHeightForContent": true,
+              "leftColumn": 50,
+              "delimiter": ",",
+              "defaultSelectedRowIndex": 0,
+              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+              "isVisibleFilters": false,
+              "isVisible": true,
+              "enableClientSideSearch": true,
+              "version": 1,
+              "totalRecordsCount": 0,
+              "isLoading": false,
+              "childStylesheet": {
+                "button": {
+                  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "boxShadow": "none"
+                },
+                "menuButton": {
+                  "menuColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "boxShadow": "none"
+                },
+                "iconButton": {
+                  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "boxShadow": "none"
+                },
+                "editActions": {
+                  "saveButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "saveBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "discardButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "discardBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
                 }
               },
-              "key": "3onidx5qfk",
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "columnUpdatedAt": 1687651426949,
+              "defaultSelectedRowIndices": [
+                0
+              ],
+              "mobileBottomRow": 185,
+              "widgetName": "Table2",
+              "defaultPageSize": 0,
+              "columnOrder": [
+                "version",
+                "version_count"
+              ],
+              "dynamicPropertyPathList": [],
+              "compactMode": "SHORT",
+              "displayName": "Table",
+              "bottomRow": 156,
+              "columnWidthMap": {
+                "task": 245,
+                "step": 70,
+                "status": 85
+              },
+              "parentRowSpace": 10,
+              "hideCard": false,
+              "mobileRightColumn": 34,
+              "dynamicTriggerPathList": [],
+              "borderWidth": "1",
+              "primaryColumns": {
+                "version": {
+                  "allowCellWrapping": false,
+                  "allowSameOptionsInNewRow": true,
+                  "index": 0,
+                  "width": 150,
+                  "originalId": "version",
+                  "id": "version",
+                  "alias": "version",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textColor": "",
+                  "textSize": "0.875rem",
+                  "fontStyle": "",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellEditable": false,
+                  "isEditable": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "Version",
+                  "isSaveVisible": true,
+                  "isDiscardVisible": true,
+                  "computedValue": "{{Table2.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"version\"]))}}",
+                  "sticky": "",
+                  "validation": {},
+                  "cellBackground": ""
+                },
+                "version_count": {
+                  "allowCellWrapping": false,
+                  "allowSameOptionsInNewRow": true,
+                  "index": 1,
+                  "width": 150,
+                  "originalId": "version_count",
+                  "id": "version_count",
+                  "alias": "version_count",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "number",
+                  "textColor": "",
+                  "textSize": "0.875rem",
+                  "fontStyle": "",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellEditable": false,
+                  "isEditable": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "Count",
+                  "isSaveVisible": true,
+                  "isDiscardVisible": true,
+                  "computedValue": "{{Table2.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"version_count\"]))}}",
+                  "sticky": "",
+                  "validation": {},
+                  "cellBackground": ""
+                }
+              },
+              "key": "8c2hvb7kkq",
+              "canFreezeColumn": true,
               "isDeprecated": false,
               "rightColumn": 64,
-              "widgetId": "86qin9e5gv",
-              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+              "textSize": "0.875rem",
+              "widgetId": "9c392rpnej",
+              "allowAddNewRow": false,
               "minWidth": 450,
+              "tableData": "{{gke_group_version.data}}",
+              "label": "Data",
+              "searchKey": "",
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "mobileTopRow": 157,
+              "horizontalAlignment": "LEFT",
+              "isVisibleSearch": false,
+              "responsiveBehavior": "fill",
+              "mobileLeftColumn": 0,
+              "isVisiblePagination": false,
+              "verticalAlignment": "CENTER"
+            },
+            {
+              "boxShadow": "none",
+              "mobileBottomRow": 90,
+              "widgetName": "Image1",
+              "displayName": "Image",
+              "iconSVG": "/static/media/icon.30c8cbd442cce232b01ba2d434c53a53.svg",
+              "topRow": 68,
+              "bottomRow": 79,
+              "parentRowSpace": 10,
+              "type": "IMAGE_WIDGET",
+              "hideCard": false,
+              "mobileRightColumn": 24,
+              "animateLoading": true,
+              "parentColumnSpace": 19.8125,
+              "dynamicTriggerPathList": [],
+              "imageShape": "RECTANGLE",
+              "leftColumn": 5,
+              "dynamicBindingPathList": [
+                {
+                  "key": "borderRadius"
+                }
+              ],
+              "defaultImage": "https://static-00.iconduck.com/assets.00/google-gke-icon-512x457-q6s0e3iu.png",
+              "key": "vfnri0fzy3",
+              "image": "",
+              "isDeprecated": false,
+              "rightColumn": 10,
+              "objectFit": "contain",
+              "widgetId": "1ykj3uenh0",
               "isVisible": true,
               "version": 1,
               "parentId": "0",
-              "labelOrientation": "auto",
               "renderMode": "CANVAS",
               "isLoading": false,
-              "mobileTopRow": 111,
-              "responsiveBehavior": "fill",
-              "yAxisName": "",
-              "chartName": "Datasets",
+              "mobileTopRow": 78,
+              "maxZoomLevel": 1,
+              "enableDownload": false,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "mobileLeftColumn": 0,
-              "xAxisName": "",
-              "chartType": "BAR_CHART"
+              "mobileLeftColumn": 12,
+              "enableRotation": false
             }
           ]
         },
         "layoutOnLoadActions": [
           [
             {
-              "id": "BigQuery_All",
-              "name": "All",
+              "id": "GKE_Count",
+              "name": "Count",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "GKE_gke_all_clusters_nodes",
+              "name": "gke_all_clusters_nodes",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "GKE_gke_group_version",
+              "name": "gke_group_version",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [],
@@ -1540,24 +1749,8 @@
           ],
           [
             {
-              "id": "BigQuery_Summary",
-              "name": "Summary",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "BigQuery_projectGroup",
-              "name": "projectGroup",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "BigQuery_topFive",
-              "name": "topFive",
+              "id": "GKE_gke_group_location",
+              "name": "gke_group_location",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [],
@@ -1566,7 +1759,7 @@
           ],
           [
             {
-              "id": "BigQuery_SumBytes",
+              "id": "GKE_SumBytes",
               "name": "SumBytes",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
@@ -1574,7 +1767,7 @@
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "BigQuery_SumGBytes",
+              "id": "GKE_SumGBytes",
               "name": "SumGBytes",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
@@ -1582,16 +1775,8 @@
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "BigQuery_SumMBytes",
+              "id": "GKE_SumMBytes",
               "name": "SumMBytes",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "BigQuery_SumPBytes",
-              "name": "SumPBytes",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [],
@@ -1601,15 +1786,16 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "BigQuery",
+        "id": "GKE",
         "deleted": false,
         "policies": [],
         "userPermissions": []
       }
     ],
     "userPermissions": [],
-    "policies": []
+    "policies": [],
+    "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "648b87b458cc4f2c9357f157_648b87b458cc4f2c9357f159"
+  "gitSyncId": "648b87b458cc4f2c9357f157_64960af49b1746151b468bd5"
 }

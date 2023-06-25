@@ -1,0 +1,18 @@
+SELECT
+	c.project_id, 
+	c."name", 
+	c."location", 
+	c.master_ip, 
+	c."version", 
+	n.instance_type, 
+	n.total_memory, 
+	n.autoscaling_enabled, 
+	n.min_nodes, 
+	n.max_nodes,
+	N.ipv4_pod_ip_range 
+FROM 
+	public.clusters as c
+INNER JOIN
+	public.node_pools as n
+ON
+	c.id = n.cluster_id

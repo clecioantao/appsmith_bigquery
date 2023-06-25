@@ -1,0 +1,2 @@
+SELECT id, project_id, project_number, "name", "location", master_ip, "version"
+FROM public.clusters;

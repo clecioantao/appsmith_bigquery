@@ -1,0 +1,4 @@
+SELECT "location", COUNT(*) as loc_count
+FROM public.clusters
+GROUP BY "location"
+order by loc_count DESC;

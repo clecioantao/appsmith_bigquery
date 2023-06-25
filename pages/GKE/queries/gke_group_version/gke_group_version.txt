@@ -1,0 +1,4 @@
+SELECT "version", COUNT(*) as version_count
+FROM public.clusters
+GROUP BY "version"
+order by version_count DESC;
