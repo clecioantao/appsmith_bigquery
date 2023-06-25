@@ -1,0 +1,7 @@
+SELECT ROUND(((CAST(current_date_value AS numeric) - CAST(previous_date_value AS numeric)) / CAST(previous_date_value AS numeric)) * 100, 2) AS percentage_change
+FROM
+  (
+    SELECT 
+      (SELECT CAST(total_bytes AS numeric) FROM public.summary WHERE "date" = CURRENT_DATE) AS current_date_value,
+      (SELECT CAST(total_bytes AS numeric) FROM public.summary WHERE "date" = CURRENT_DATE - INTERVAL '1 day') AS previous_date_value
+  ) AS subquery;

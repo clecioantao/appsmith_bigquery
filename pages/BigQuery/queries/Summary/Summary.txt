@@ -1,2 +1,5 @@
 SELECT "date", total_bytes
-FROM public.summary;
+FROM public.summary
+ORDER BY "date" DESC
+LIMIT 5
+;

@@ -2,7 +2,7 @@
   "pluginType": "DB",
   "pluginId": "postgres-plugin",
   "unpublishedAction": {
-    "name": "Summary",
+    "name": "percentD3",
     "datasource": {
       "name": "GCP MultiCloud",
       "pluginId": "postgres-plugin",
@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "SELECT \"date\", total_bytes\nFROM public.summary\nORDER BY \"date\" DESC\nLIMIT 5\n;",
+      "body": "SELECT ROUND(((CAST(current_date_value AS numeric) - CAST(previous_date_value AS numeric)) / CAST(previous_date_value AS numeric)) * 100, 2) AS percentage_change\nFROM\n  (\n    SELECT \n      (SELECT CAST(total_bytes AS numeric) FROM public.summary WHERE \"date\" = CURRENT_DATE - INTERVAL '2 day') AS current_date_value,\n      (SELECT CAST(total_bytes AS numeric) FROM public.summary WHERE \"date\" = CURRENT_DATE - INTERVAL '3 day') AS previous_date_value\n  ) AS subquery;",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -36,9 +36,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2023-06-20T14:08:33Z"
+    "createdAt": "2023-06-25T19:50:39Z"
   },
-  "id": "BigQuery_Summary",
+  "id": "BigQuery_percentD3",
   "deleted": false,
-  "gitSyncId": "648b87b458cc4f2c9357f157_6491b2e135016631ebe3be58"
+  "gitSyncId": "648b87b458cc4f2c9357f157_64989a8f9b1746151b468c6c"
 }

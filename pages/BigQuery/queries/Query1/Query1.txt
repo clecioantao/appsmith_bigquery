@@ -1,0 +1,10 @@
+
+
+SELECT 
+  ((current_date_value - previous_date_value) / previous_date_value) * 100 AS percentage_change
+FROM
+  (
+    SELECT 
+      (SELECT total_bytes FROM public.summary WHERE "date" = CURRENT_DATE - INTERVAL '2 day') AS current_date_value,
+      (SELECT total_bytes FROM public.summary WHERE "date" = CURRENT_DATE - INTERVAL '3 day') AS previous_date_value
+  ) AS subquery;

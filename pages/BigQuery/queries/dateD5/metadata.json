@@ -2,7 +2,7 @@
   "pluginType": "DB",
   "pluginId": "postgres-plugin",
   "unpublishedAction": {
-    "name": "Summary",
+    "name": "dateD5",
     "datasource": {
       "name": "GCP MultiCloud",
       "pluginId": "postgres-plugin",
@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "SELECT \"date\", total_bytes\nFROM public.summary\nORDER BY \"date\" DESC\nLIMIT 5\n;",
+      "body": "SELECT \"date\" FROM public.summary WHERE \"date\" = CURRENT_DATE - INTERVAL '4 day'",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -36,9 +36,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2023-06-20T14:08:33Z"
+    "createdAt": "2023-06-25T20:28:46Z"
   },
-  "id": "BigQuery_Summary",
+  "id": "BigQuery_dateD5",
   "deleted": false,
-  "gitSyncId": "648b87b458cc4f2c9357f157_6491b2e135016631ebe3be58"
+  "gitSyncId": "648b87b458cc4f2c9357f157_6498a37e9b1746151b468c7e"
 }
