@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "SELECT \"date\", total_bytes\nFROM public.summary\nORDER BY \"date\" DESC\nLIMIT 5\n;",
+      "body": "SELECT \"date\", total_bytes\nFROM public.summary\nWHERE total_bytes is NOT NULL\nORDER BY \"date\" DESC\n;",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
