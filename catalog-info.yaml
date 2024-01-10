@@ -2,9 +2,14 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: appsmith_bigquery
+  description: Playback Order
+  tags:
+    - java
+    - infra
   annotations:
     github.com/project-slug: clecioantao/appsmith_bigquery
 spec:
-  type: other
-  lifecycle: unknown
-  owner: infrastructure
+  type: service
+  lifecycle: production
+  owner: user:guest
+  system: inventory
